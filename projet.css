@@ -1,0 +1,353 @@
+  body{
+    margin: 80px;
+    font-size: 18px;
+  }
+nav a{
+    text-decoration: none;
+}
+.centreElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.lienNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.tailLiens{
+   width: 45%;
+}
+.tailLien{
+    width: 140px;
+    height: 70px;
+}
+.bar{
+  border-top: 2px solid blue;
+    }
+.logo{
+    width: 120px;
+    height: 50px;
+}
+.lien1{
+    color: blue;
+}
+.lien2 {
+    color: black;
+}
+.lien3{
+    color: blue;
+}
+ h2{
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.recherche{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boutonRech button{
+    border-radius:  0 10px  10px 0 ;
+    color: white;
+    height: 50px;
+    width: 150px;
+  cursor: pointer;
+  border: none;
+  background-color: blue;
+}
+.icon_map{
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0 0 15px ;
+    height: 50px;
+    background-color: #f2f2f2;
+    width: 40px;
+}
+.recherche input{
+    border: none;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+}
+/*Filtre*/
+span{
+    font-weight: bold;
+}
+.filtre{
+    display: flex;
+    align-items: center;
+}  
+.filtreTritre{
+    margin-right: 20px;
+}
+.icon_position{
+   border: 2px solid #F2F2F2;
+   height: 50px;
+   border-radius: 30px;
+   margin-right: 30px;
+   background-color: white;
+}
+.icon_reduis{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+}
+.text_position{
+ margin: 10px;
+ width: 150px;
+}
+.icon_position:hover > .text_position{
+    color: #0065fc;
+}
+.icon_position:hover > .icon_reduis{
+    background-color: #0065fc;
+    color: white;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon_info{
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.coleurBlack{
+    color:black;
+}
+.hebergement{
+    display: flex;
+    gap: 30px;
+}
+.conteneur1{
+    width: 70%;
+    background-color:#F2F2F2 ;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background: white;
+    width: 240px;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     overflow: hidden;
+}
+.card img{
+   width: 240px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+.conteneur2{
+    width: 30%;
+    background-color:#F2F2F2 ;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+.card h4{
+    margin: 0;
+    font-size: 18px;
+}
+.card p {
+  margin: 0;
+    font-size: 18px;
+}
+.card_populaire{
+    width: 90%;
+    display: flex;
+    background:white;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cards_populaire{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.card_populaire img{
+     width: 140px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px 0  0 15px ;
+}
+.card_populaire h4{
+    margin: 0;
+}
+.card_populaire p{
+    margin: 0;
+}
+.description2{
+padding: 10px;
+}
+.description1{
+    padding: 10px;
+}
+.activite{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.conteneur3{
+    width 100%;
+    height: 600px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card_activite{
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.card_activite img{
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.card_activite2{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    margin-left: 30px;
+    height: 600px;
+}
+.card_activite2 img{
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+    object-fit: cover;
+}
+.card_activite1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius: 15px 15px 0 0;
+}
+
+.petite_card{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2; 
+    height:290px ;
+    margin: 20px;
+}
+.petite_card1{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2; 
+    height:290px ;
+    margin: 20px;
+}
+
+.petite_card img{
+
+}
+.description3{
+    margin: 20px;
+}
+/*footer*/
+.piedpage{
+    width: 100%;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.couleur_blue{
+    color: blue;
+}
+.couleur_grise{
+    color: #F2F2F2;
+}
+.etoile{
+    padding-top: 20px;
+}
+@media screen and ( max-width:768px ){
+ .tailLiens{
+    width 100%;
+    overflow: hidden;
+ } 
+ .navigation img{
+
+    }
+ .filtre{
+   width: 90%;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+ }
+ .cards{
+    flex-direction: column;
+ }
+ .hebergement{
+    flex-direction: column;
+ }
+ .cards_populaire{
+    width: 100%;
+ }
+    .activite{
+        flex-direction: column;
+    }
+    .conteneur3{
+       flex-direction: column;
+       height: 30%;
+    }
+    .card_activite{
+         width: 67%;
+         height: ;
+    }
+    .card_activite img{
+        height: 200px;
+    }
+    .card_activite2 img{
+        height: 200px;
+    } 
+    .card_activite2{
+        height: 200px;
+        width: 67%;
+    }
+    .conteneur2{
+         width: 70%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .piedpage{
+        width: 100%;
+        height: 30%;
+    }
+    
+} 
