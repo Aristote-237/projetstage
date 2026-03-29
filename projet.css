@@ -297,8 +297,11 @@ margin-bottom: 50px;
     padding-top: 20px;
 }
 @media screen and ( max-width:768px ){
- .tailLiens{
-    width 100%;
+ html body{
+    margin: none;
+ }
+    .tailLiens{
+    width: 100%;
     overflow: hidden;
  } 
  .navigation img{
