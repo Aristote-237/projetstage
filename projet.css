@@ -134,9 +134,9 @@ span{
     gap: 30px;
 }
 .conteneur1{
-    width: 70%;
+    width: 60%;
     background-color:#F2F2F2 ;
-    padding: 10px;
+    padding 10px;
     padding-left: 30px;
     border-radius: 15px;
 }
@@ -147,14 +147,14 @@ span{
 }
 .card{
     background: white;
-    width: 240px;
+    width: 200px;
     padding: 5px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
      overflow: hidden;
 }
 .card img{
-   width: 240px;
+   width: 200px;
     height: 100px;
     object-fit: cover;
     display: block;
@@ -213,39 +213,31 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 .conteneur3{
-    width 100%;
     height: 600px;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 .card_activite{
-    width: 400px;
+    width: 30%;
+    height: 500px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    align-items: center;
 }
 .card_activite img{
     width: 100%;
-    height: 530px;
+    height: 450px;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
-.card_activite2{
-    width: 350px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-    margin-left: 30px;
-    height: 600px;
-}
-.card_activite2 img{
-    width: 100%;
-    height: 530px;
-    border-radius: 15px 15px 0 0 ;
-    object-fit: cover;
+.card_activite1{
+    width: 30%;
+    height: 500px;
 }
 .card_activite1 img{
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
    box-shadow: 5px 5px 5px 1px #f2f2f2;
     border-radius: 15px 15px 0 0;
@@ -255,22 +247,31 @@ margin-bottom: 50px;
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2; 
-    height:290px ;
-    margin: 20px;
+    height: 245px;
+}
+.petite_card img{
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .petite_card1{
     width: 100%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2; 
-    height:290px ;
-    margin: 20px;
+    box-shadow: 5px 5px 5px 1px f2f2f2; 
+    height:150px ;
+    padding-top: 100px;
 }
 
-.petite_card img{
-
+.petite_card1 img{
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
 }
 .description3{
     margin: 20px;
+    
 }
 /*footer*/
 .piedpage{
