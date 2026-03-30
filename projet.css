@@ -1,5 +1,5 @@
   body{
-    margin: 80px;
+    margin 80px;
     font-size: 18px;
   }
 nav a{
@@ -175,6 +175,14 @@ span{
   margin: 0;
     font-size: 18px;
 }
+.etoile_populaire{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.paddingetoile{
+    padding-right: 20px;
+}
 .card_populaire{
     width: 90%;
     display: flex;
@@ -213,62 +221,92 @@ margin-top: 50px;
 margin-bottom: 50px;
 }
 .conteneur3{
-    height: 600px;
+    width: 100%;
+    height: 400px;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
 }
 .card_activite{
-    width: 30%;
-    height: 500px;
+    width: 23%;
+    height: 400px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    flex-direction: column;
     align-items: center;
+     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .card_activite img{
     width: 100%;
-    height: 450px;
+    height: 330px;
     border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
     object-fit: cover;
 }
-.card_activite1{
-    width: 30%;
-    height: 500px;
-}
-.card_activite1 img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-   box-shadow: 5px 5px 5px 1px #f2f2f2;
-    border-radius: 15px 15px 0 0;
-}
-
-.petite_card{
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2; 
-    height: 245px;
-}
-.petite_card img{
-    width: 100%;
-    height: 180px;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
+.card_activite2356{
+    width: 23%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .petite_card1{
     width: 100%;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px f2f2f2; 
-    height:150px ;
-    padding-top: 100px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .petite_card1 img{
-    width: 100%;
-    height: 100px;
+   width: 100%;
+    height: 150px;
     border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
     object-fit: cover;
 }
+.petite_card2{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2; 
+}
+.petite_card2 img{
+    width: 100%;
+    height: 75px;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.petite_card3{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.petite_card3 img{
+   width: 100%;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.petite_card4{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2; 
+}
+.petite_card4 img{
+    width: 100%;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
 .description3{
     margin: 20px;
     
@@ -297,8 +335,9 @@ margin-bottom: 50px;
     padding-top: 20px;
 }
 @media screen and ( max-width:768px ){
- html body{
+ html, body{
     margin: none;
+    padding: none;
  }
     .tailLiens{
     width: 100%;
@@ -313,13 +352,28 @@ margin-bottom: 50px;
    flex-wrap: wrap;
    gap: 20px;
  }
+ .conteneur1{
+    width: 90%;
+ }
  .cards{
     flex-direction: column;
+    width: 80%;
+ }
+ .card{
+    width: 60%;
+ }
+ .card img{
+    width: 100%;
  }
  .hebergement{
     flex-direction: column;
+    width: 100%;
+    height: 40%;
  }
  .cards_populaire{
+    width: 90%;
+ }
+ .card_populaire{
     width: 100%;
  }
     .activite{
@@ -328,10 +382,10 @@ margin-bottom: 50px;
     .conteneur3{
        flex-direction: column;
        height: 30%;
+       width: 100%;
     }
     .card_activite{
          width: 67%;
-         height: ;
     }
     .card_activite img{
         height: 200px;
@@ -344,7 +398,7 @@ margin-bottom: 50px;
         width: 67%;
     }
     .conteneur2{
-         width: 70%;
+         width: 100%;
     }
     .footer{
         flex-direction: column;
