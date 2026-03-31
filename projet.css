@@ -1,5 +1,5 @@
   body{
-    margin 80px;
+    margin: 80px;
     font-size: 18px;
   }
 nav a{
@@ -79,6 +79,9 @@ p {
     background-color: white;
     height: 50px;
 }
+ .iconBtn{
+    display: none;
+   }
 /*Filtre*/
 span{
     font-weight: bold;
@@ -335,6 +338,114 @@ margin-bottom: 50px;
     padding-top: 20px;
 }
 @media screen and ( max-width:768px ){
+   .navigation{
+    flex-direction: column;
+    align-items: center;
+   }
+   .logo{
+    margin-bottom: 20px;
+   }
+   .lienNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #f2f2f2;
+   }
+   .tailLien{
+    width: 50%;
+    height: 50px;
+    border-bottom: 3px solid transparent;
+   }
+   .tailLien:hover{
+    border-bottom: 3px solid #0065fc;
+   }
+   .bar{
+    border-top: none;
+    border-bottom: 3px solid #0065fc;
+   }
+  .textBtn{
+    display: none;
+  }
+  .iconBtn{
+       display: inline;
+       color:white;
+  }
+  .boutonRech button{
+    width: 50px;
+    border-radius: 15px;
+  }
+  .hebergement{
+    display: flex;
+    flex-direction: column;
+  }
+  .conteneur1{
+    order: 2;
+    width: 100%;
+    background-color: white;
+  }
+  .conteneur2{
+    order: 1;
+    width: 100%;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
+  .card img{
+    width: 100%;
+  }
+ .filtre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ .icon_position{
+    width: 45%;
+ }
+ .conteneur3{
+    flex-direction: column;
+    gap: 20px;
+    height: 30%;
+ }
+ .card_activite,
+ .card_activite2356,
+ .petite_card1,
+ .petite_card2,
+ .petite_card3,
+ .petite_card4{
+    width: 100%;
+    height: auto;
+ }
+ .card_activite img,
+ .card_activite2356 img,
+ .petite_card1 img,
+ .petite_card2 img,
+ .petite_card3 img,
+ .petite_card4 img{
+    width: 100%;
+    height: auto;
+ }
+ .footer{
+    flex-direction: column;
+    gap: 20px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and ( max-width:768px ){
  html, body{
     margin: none;
     padding: none;
@@ -385,17 +496,23 @@ margin-bottom: 50px;
        width: 100%;
     }
     .card_activite{
-         width: 67%;
+        width: 90%;
     }
-    .card_activite img{
-        height: 200px;
+    .card_activite2356{
+        width: 90%;
+       
     }
-    .card_activite2 img{
-        height: 200px;
-    } 
-    .card_activite2{
-        height: 200px;
-        width: 67%;
+    .petite_card{
+        width: 70%;
+    }
+    .petite_card2{
+        width: 70%;
+    }
+    .petite_card3{
+        width: 70%;
+    }
+    .petite_card1{
+        width: 70%;
     }
     .conteneur2{
          width: 100%;
@@ -408,4 +525,4 @@ margin-bottom: 50px;
         height: 30%;
     }
     
-} 
+} */
