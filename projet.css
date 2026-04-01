@@ -1,5 +1,5 @@
   body{
-    margin: 80px;
+    margin 80px;
     font-family: 'Raleway', sans-serif;
   }
   html{
@@ -364,6 +364,10 @@ margin-bottom: 50px;
     padding-top: 20px;
 }
 @media screen and ( max-width:768px ){
+    html, body{
+        margin: none;
+        padding: none;
+    }
    .navigation{
     flex-direction: column;
     align-items: center;
@@ -435,22 +439,24 @@ margin-bottom: 50px;
     gap: 20px;
     height: 30%;
  }
+ 
+ .card_activite2356{
+    flex-direction: column;
+    gap: 20px;
+ }
  .card_activite,
- .card_activite2356,
- .petite_card1,
- .petite_card2,
- .petite_card3,
- .petite_card4{
+ .card_activite2356{
     width: 100%;
     height: auto;
  }
  .card_activite img,
+ .card_activite2356,
  .petite_card1 img,
  .petite_card2 img,
  .petite_card3 img,
  .petite_card4 img{
     width: 100%;
-    height: 300px;
+    height:auto;
  }
  .piedpage{
     height:auto;
