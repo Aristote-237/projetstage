@@ -366,7 +366,7 @@ margin-bottom: 50px;
 }
 @media screen and ( max-width:768px ){
     html, body{
-        margin: 90px;
+        margin: 80px;
     }
    .navigation{
     flex-direction: column;
@@ -424,7 +424,7 @@ margin-bottom: 50px;
     width: 100%;
   }
   .card img{
-    width: 90%;
+    width: 100%;
   }
  .filtre{
     display: flex;
@@ -445,11 +445,10 @@ margin-bottom: 50px;
  .card_activite2356{
     flex-direction: column;
     gap: 20px;
-    width: 90%;
  }
  .card_activite,
  .card_activite2356{
-    width: 90%;
+    width: 100%;
     height: auto;
  }
  .card_activite img,
@@ -458,12 +457,11 @@ margin-bottom: 50px;
  .petite_card2 img,
  .petite_card3 img,
  .petite_card4 img{
-    width: 90%;
+    width: 100%;
     height:auto;
  }
  .piedpage{
     height:auto;
-    width: 60%;
  }
  .footer{
     flex-direction: column;
