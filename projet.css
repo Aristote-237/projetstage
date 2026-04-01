@@ -1,6 +1,22 @@
   body{
     margin: 80px;
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  #hebergement,
+  #activite{
+    scroll-margin-top: 200px;
+  }
+  h2, h3{
+    font-weight: 700;
+  }
+  h4{
+    font-weight: 600;
+  }
+  p{
+    font-weight: 400;
   }
 nav a{
     text-decoration: none;
@@ -156,6 +172,10 @@ span{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
      overflow: hidden;
 }
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
 .card img{
    width: 200px;
     height: 100px;
@@ -194,6 +214,12 @@ span{
     padding: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+    .card_populaire{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
 .cards_populaire{
      display: flex;
     flex-direction: column;
@@ -419,7 +445,6 @@ margin-bottom: 50px;
     height: auto;
  }
  .card_activite img,
- .card_activite2356 img,
  .petite_card1 img,
  .petite_card2 img,
  .petite_card3 img,
@@ -430,6 +455,7 @@ margin-bottom: 50px;
  .footer{
     flex-direction: column;
     gap: 20px;
+    height: 50px;
  }
 }
 
