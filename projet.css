@@ -1,5 +1,6 @@
   body{
-    margin 80px;
+   margin: 0;
+   padding: 0 20px;
     font-family: 'Raleway', sans-serif;
   }
   html{
