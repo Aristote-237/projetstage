@@ -411,12 +411,12 @@ margin-bottom: 50px;
   }
   .conteneur1{
     order: 2;
-    width: 100%;
+    width: 90%;
     background-color: white;
   }
   .conteneur2{
     order: 1;
-    width: 100%;
+    width: 90%;
   }
   .cards{
     flex-direction: column;
@@ -431,6 +431,7 @@ margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    width: 90%;
  }
  .icon_position{
     width: 50%;
@@ -439,6 +440,7 @@ margin-bottom: 50px;
     flex-direction: column;
     gap: 20px;
     height: 30%;
+    width: 90%;
  }
  
  .card_activite2356{
