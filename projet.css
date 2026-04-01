@@ -454,7 +454,8 @@ margin-bottom: 50px;
  .petite_card2 img,
  .petite_card3 img,
  .petite_card4 img{
-    height:200px;
+    width: 100%;
+    height:auto;
  }
  .piedpage{
     height:auto;
@@ -465,3 +466,4 @@ margin-bottom: 50px;
     height:auto;
  }
 }
+
