@@ -428,7 +428,7 @@ margin-bottom: 50px;
     gap: 10px;
  }
  .icon_position{
-    width: 45%;
+    width: 50%;
  }
  .conteneur3{
     flex-direction: column;
@@ -450,12 +450,15 @@ margin-bottom: 50px;
  .petite_card3 img,
  .petite_card4 img{
     width: 100%;
-    height: auto;
+    height: 300px;
+ }
+ .piedpage{
+    height:auto;
  }
  .footer{
     flex-direction: column;
     gap: 20px;
-    height: 50px;
+    height:auto;
  }
 }
 
