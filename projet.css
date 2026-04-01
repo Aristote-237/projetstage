@@ -365,9 +365,6 @@ margin-bottom: 50px;
     padding-top: 20px;
 }
 @media screen and ( max-width:768px ){
-    html, body{
-        margin: 80px;
-    }
    .navigation{
     flex-direction: column;
     align-items: center;
