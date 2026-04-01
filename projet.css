@@ -366,8 +366,7 @@ margin-bottom: 50px;
 }
 @media screen and ( max-width:768px ){
     html, body{
-        margin: none;
-        padding: none;
+        margin: 80px;
     }
    .navigation{
     flex-direction: column;
