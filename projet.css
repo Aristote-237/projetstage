@@ -352,7 +352,7 @@ header {
 
 .card_populaire img {
   width: 130px;
-  height: 110px;
+  height: 100px;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -373,9 +373,7 @@ header {
   font-size: 0.82rem;
 }
 
-/* =============================================
-   SECTION ACTIVITÉS
-   ============================================= */
+/*SECTION ACTIVITÉS*/
 .activite {
   margin-bottom: 60px;
 }
@@ -386,6 +384,7 @@ header {
 }
 
 .conteneur3 {
+  height: 450px;
   display: flex;
   gap: 16px;
   align-items: stretch;
@@ -420,7 +419,6 @@ header {
 }
 
 .card_activite_sm {
-  flex: 1;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
@@ -435,16 +433,25 @@ header {
 
 .card_activite_sm img {
   width: 100%;
-  flex: 1;
   object-fit: cover;
-  min-height: 0;
+display: block;
 }
 
-/* Wrapper pour que les cartes aient la même hauteur totale */
-.conteneur3 {
-  height: 420px;
+.card_activite_double:first-of-type .card_activite_sm:first-child{
+ flex:2;
 }
 
+.card_activite_double:last-of-type .card_activite_sms{
+ flex:1;
+}
+.card_activite_double:first-of-type .card_activite_sm:last-child{
+ flex:1;
+}
+.card_activite_double .card_activite_sm img{
+ flex:1;
+ height: 0;
+ min-height: 80;
+}
 .description3 {
   padding: 12px 14px;
 }
@@ -452,8 +459,9 @@ header {
 .description3 h4 {
   font-size: 0.9rem;
 }
-
-/*FOOTER */
+/* =============================================
+   FOOTER
+   ============================================= */
 .piedpage {
   background: #f2f2f2;
   padding: 40px;
@@ -658,41 +666,22 @@ header {
   .card_activite_sm img {
     height: 140px;
   }
-
-/* =============================================
-   FOOTER
-   ============================================= */
-.piedpage {
-  background: #f2f2f2;
-  padding: 40px;
+  .card_activite_double:first-of-type .card_activite_sm:first-child,
+  .card_activite_double:first-of-type .card_activite_sm:last-child,
+  .card_activite_double .card_activite_sm{
+ flex:none;
+ height: auto;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  flex-wrap: wrap;
-}
+  /*FOOTER */
+  .piedpage {
+    padding: 30px 20px;
+  }
 
-.footer-col h3 {
-  font-size: 1rem;
-  margin-bottom: 16px;
-}
-
-.footer-col ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.footer-col a {
-  font-size: 0.9rem;
-  color: #555;
-  transition: color 0.2s;
-}
-
-.footer-col a:hover {
-  color: #0065fc;
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 /*RESPONSIVE — TRÈS PETIT MOBILE (max 420px) */
