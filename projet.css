@@ -149,9 +149,10 @@ header {
   background: #0052cc;
 }
 
-.iconBtn { display: none; }
+.iconBtn { 
+  display: none; }
 
-/* SECTION FILTRES*/
+/* section filtre*/
 
 .section-filtres {
   padding: 10px 40px 20px;
@@ -238,14 +239,14 @@ header {
   padding: 0 40px;
 }
 
-/* SECTION HÉBERGEMENTS*/
+/* Ssection hebergement*/
 .hebergement {
   display: flex;
   gap: 30px;
   margin-bottom: 50px;
 }
 
-/* --- Conteneur 1 : grille hébergements --- */
+/*  grille hébergements */
 .conteneur1 {
   flex: 2;
   background: #f2f2f2;
@@ -317,7 +318,7 @@ header {
   color: #0065fc;
 }
 
-/* --- Conteneur 2 : populaires --- */
+/*Conteneur 2 : populaires */
 .conteneur2 {
   flex: 1;
   background: #f2f2f2;
@@ -382,7 +383,7 @@ header {
   font-size: 0.82rem;
 }
 
-/*SECTION ACTIVITÉS*/
+/*section activite*/
 .activite {
   margin-bottom: 60px;
 }
@@ -468,9 +469,7 @@ display: block;
 .description3 h4 {
   font-size: 0.9rem;
 }
-/* =============================================
-   FOOTER
-   ============================================= */
+/*FOOTER */
 .piedpage{
     width: 100%;
     height: 100%px;
@@ -517,7 +516,7 @@ display: block;
   }
 }
 
-/*RESPONSIVE — MOBILE (max 768px) */
+/*RESPONSIVE MOBILE */
 @media screen and (max-width: 768px) {
 
   /*HEADER*/
@@ -585,13 +584,16 @@ display: block;
   }
 
   .filtres {
+    order:1 ;
     gap: 10px;
   }
 
   .filtre-btn {
-    height: 50px;
+    height: 60px;
     font-size: 0.85rem;
-    padding 0 12px;
+  }
+  .filtre-btn i {
+    height: px;
   }
 
   /*MAIN*/
@@ -631,7 +633,7 @@ display: block;
     height: 140px;
   }
 
-  /* --- ACTIVITÉS --- */
+  /* ACTIVITÉS */
   .conteneur3 {
     flex-direction: column;
     height: auto;
