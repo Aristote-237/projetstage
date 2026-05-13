@@ -659,15 +659,40 @@ header {
     height: 140px;
   }
 
-  /* --- FOOTER --- */
-  .piedpage {
-    padding: 30px 20px;
-  }
+/* =============================================
+   FOOTER
+   ============================================= */
+.piedpage {
+  background: #f2f2f2;
+  padding: 40px;
+}
 
-  .footer {
-    flex-direction: column;
-    gap: 30px;
-  }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-col h3 {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col a {
+  font-size: 0.9rem;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #0065fc;
 }
 
 /*RESPONSIVE — TRÈS PETIT MOBILE (max 420px) */
